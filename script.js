@@ -634,9 +634,66 @@ const GpacCoords = [
     fillOpacity: 1.35,
   });
 
-  millerPolygon.setMap(map);
+ millerPolygon.setMap(map);
 
+   const thayerCoords = [
+    { lat: 39.899794270109865,  lng: -80.18415814352237 },
+    { lat: 39.899222785978154,  lng: -80.18416911622144   },
+    { lat: 39.89922465663775,  lng:  -80.1842983502326 },
+    { lat: 39.899794270109865,  lng: -80.1842898159111  },
+    { lat: 39.899794270109865,  lng: -80.18415814352237 },
+  ];
+  // Construct the polygon.
+  const thayerPolygon = new google.maps.Polygon({
+    paths: thayerCoords,
+    strokeColor: "#c16c18",
+    strokeOpacity: 0.8,
+    strokeWeight: 2,
+    fillColor: "#c16c18",
+    fillOpacity: 1.35,
+  });
 
+  thayerPolygon.setMap(map);
+
+  const pollockCoords = [
+    { lat: 39.89932966350404, lng: -80.18516459443458 }, 
+     { lat: 39.89932674703466, lng: -80.18474261889916 }, 
+     { lat: 39.89918383988418, lng: -80.18474185858288 }, 
+     { lat:39.89918675635962, lng: -80.18516611506715 }, 
+    { lat: 39.89932966350404 , lng: -80.18516459443458}
+  ];
+
+// Construct the polygon.
+  const pollockPolygon = new google.maps.Polygon({
+    paths: pollockCoords,
+    strokeColor: "#c16c18",
+    strokeOpacity: 0.8,
+    strokeWeight: 2,
+    fillColor: "#c16c18",
+    fillOpacity: 1.35,
+  });
+
+  pollockPolygon.setMap(map);
+
+  const cafeCoords = [
+    { lat: 39.90058997069641,  lng: -80.18815556865312 }, 
+     { lat: 39.90057453809819,  lng: -80.18770361646895 }, 
+     { lat: 39.90018820759037,  lng: -80.18772574469162 }, 
+     { lat:39.90020364027558,  lng: -80.18817970853237 }, 
+     { lat: 39.90058997069641,  lng: -80.18815556865312 },
+  ];
+
+// Construct the polygon.
+  const cafePolygon = new google.maps.Polygon({
+    paths: cafeCoords,
+    strokeColor: "#c16c18",
+    strokeOpacity: 0.8,
+    strokeWeight: 2,
+    fillColor: "#c16c18",
+    fillOpacity: 1.35,
+  });
+
+  cafePolygon.setMap(map);
 
 
 
