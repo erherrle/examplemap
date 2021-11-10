@@ -617,15 +617,15 @@ const GpacCoords = [
 
   stoverPolygon.setMap(map);
 
-  const millerCoords = [
-    { lat: 39.8995626210572,  lng: -80.18722982644252},
-    { lat: 39.899398518457915,  lng:-80.18722647368142},
-    { lat: 39.899395946313724,  lng: -80.1877991252754},
-    { lat: 39.899561077774386, lng:   -80.18779711361876},
-    { lat: 39.8995626210572,  lng: -80.18722982644252},
+   const millerCoords = [
+    { lat: 39.89956288108526,  lng: -80.18779706935386 },
+    { lat: 39.89956030894722,  lng: -80.18723045274315  },
+    { lat: 39.899399807344246, lng:  -80.18722978219094 },
+    { lat: 39.899395691913575,  lng: -80.18779908101047 },
+    { lat: 39.89956288108526,  lng: -80.18779706935386 },
   ];
   // Construct the polygon.
-  const milllerPolygon = new google.maps.Polygon({
+  const millerPolygon = new google.maps.Polygon({
     paths: millerCoords,
     strokeColor: "#c16c18",
     strokeOpacity: 0.8,
@@ -634,7 +634,7 @@ const GpacCoords = [
     fillOpacity: 1.35,
   });
 
- millerPolygon.setMap(map);
+  millerPolygon.setMap(map);
 
 
 
