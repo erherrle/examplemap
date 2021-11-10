@@ -282,7 +282,7 @@ function initMap() {
 	const BeeHive = new google.maps.Marker({
 		position: { lat:39.89995326938525, lng:-80.18636013988127 },
 		map,
-		title: "BeeHive",
+		title: "The BeeHive",
 		icon: "icons.png"
 	});
 
@@ -293,6 +293,68 @@ function initMap() {
 		icon: "home.png"
 	});
 
+	new google.maps.Marker({
+		position: { lat:39.90038626938185,  lng: -80.18793954375852 },
+		map,
+		title: "Benedum Dining Hall",
+		icon: "icons.png"
+	});
+
+new google.maps.Marker({
+		position: { lat:39.90039610643169,   lng: -80.18632604288385 },
+		map,
+		title: "West",
+		icon: "female.png"
+	});
+
+new google.maps.Marker({
+		position: { lat:39.900284991332626,    lng: -80.18595589805962 },
+		map,
+		title: "South",
+		icon: "female.png"
+	});
+
+new google.maps.Marker({
+		position: { lat:39.90038376031847,    lng: -80.18550528696926  },
+		map,
+		title: "East",
+		icon: "female.png"
+	});
+
+new google.maps.Marker({
+		position: { lat: 39.8992684855812, lng:  -80.18501176053698  },
+		map,
+		title: "Pollock",
+		icon: "female.png"
+	});
+
+new google.maps.Marker({
+		position: { lat: 39.899511296018076, lng: -80.18421782671112},
+		map,
+		title: "Thayer",
+		icon: "male.png"
+	});
+
+new google.maps.Marker({
+		position: { lat:39.89734243333214,lng:  -80.18628849195964 },
+		map,
+		title: "Willison",
+		icon: "male.png"
+	});
+
+new google.maps.Marker({
+		position: { lat:39.89811615313388, lng: -80.18537654094344 },
+		map,
+		title: "The Nest",
+		icon: "nest.png"
+	});
+
+new google.maps.Marker({
+		position: { lat:39.89991717849254, lng: -80.18787099519355 },
+		map,
+		title: "Goodwin Performing Arts Center",
+		icon: "gpac.png"
+	});
 
 	const homeCoords = [
     { lat: 39.897613, lng: -80.187790 },
