@@ -812,7 +812,7 @@ const GpacCoords = [
 
 
 const infowindow  = new google.maps.InfoWindow({
-    content: "The Beehive",
+    content: "Stover Center and the BeeHive: Located in the center of campus, this building is home to the center for service leadership, student services, the campus ministry office, and residence life office. The second floor is complete with a Starbucks, 24-hour convenience store, and secondary dining facility. The E-hive, or center for entrepreneurship, is also located here.",
   });
  BeeHive.addListener("click", () => {
     infowindow.open({
@@ -823,7 +823,7 @@ const infowindow  = new google.maps.InfoWindow({
 
 
    const beneduminfowindow  = new google.maps.InfoWindow({
-    content: "The Benedum Dining Hall",
+    content: "The Benedum Dining Hall: This is the main dining hall on campus serving breakfast lunch and dinner. Below the dining hall is the Fine Arts Center, and it is also connected to a female, underclassmen, residential building, Denny Hall.",
   });
  benedumMarker.addListener("click", () => {
     beneduminfowindow.open({
@@ -833,7 +833,7 @@ const infowindow  = new google.maps.InfoWindow({
       });
 
     const chapelinfowindow  = new google.maps.InfoWindow({
-    content: "Roberts Chapel",
+    content: "Roberts Chapel: Roberts Chapel holds weekly Presbyterian and Catholic services available for students. Several other events such as Upper Room and various concerts also occur here. You will find chapel in session every Tuesday at 11 a.m.",
   });
  chapelMarker.addListener("click", () => {
     chapelinfowindow.open({
@@ -843,7 +843,7 @@ const infowindow  = new google.maps.InfoWindow({
       });
 
      const nestinfowindow  = new google.maps.InfoWindow({
-    content: "The Nest",
+    content: "The Nest: 84 Wayne St. is home to the new campus store, The Nest. Here you can purchase University merchandise such as shirts, hats, school supplies, and more. The building is also complete with an arcade upstairs above the store.",
   });
  nestMarker.addListener("click", () => {
     nestinfowindow.open({
@@ -853,7 +853,7 @@ const infowindow  = new google.maps.InfoWindow({
       });
 
     const gpacinfowindow  = new google.maps.InfoWindow({
-    content: "The Goodwin Performing Arts Center",
+    content: "The Goodwin Performing Arts Center: Also known as the GPAC, this building is complete with classrooms and an auditorium fit for Waynesburg's Theater classes and programs. This space is also used to hold a variety of campus events.",
   });
  gpacMarker.addListener("click", () => {
     gpacinfowindow.open({
@@ -863,7 +863,7 @@ const infowindow  = new google.maps.InfoWindow({
       });
 
     const eberlyinfowindow  = new google.maps.InfoWindow({
-    content: "The Eberly Library",
+    content: "The Eberly Library: The campus library sits on the hill directly behind the Stover Center. The library offers a quiet space for studying, a vast resource of knowledge and research materials, as well as a computer lab where a majority of students do their pringing - for FREE!",
   });
  eberlyMarker.addListener("click", () => {
     eberlyinfowindow.open({
@@ -873,7 +873,7 @@ const infowindow  = new google.maps.InfoWindow({
       });
 
     const millerinfowindow  = new google.maps.InfoWindow({
-    content: "Miller Hall",
+    content: "Miller Hall: This building is home to the office of the provost, admissions, business, and more. On the third floor is Alumni Hall, a large lecture space decorated with stain glass windows. In the buildings bottom floor, you will find the university's museum, complete with artifacts that outline the history of Waynesburg and the university.",
   });
  millerMarker.addListener("click", () => {
     millerinfowindow.open({
@@ -883,7 +883,7 @@ const infowindow  = new google.maps.InfoWindow({
       });
 
     const hannainfowindow  = new google.maps.InfoWindow({
-    content: "Miller Hall",
+    content: "Hanna Hall: This was Waynesburg University's first building on campus, completed in 1851. It now serves as the home to the business administration department.",
   });
  hannaMarker.addListener("click", () => {
     hannainfowindow.open({
@@ -893,7 +893,7 @@ const infowindow  = new google.maps.InfoWindow({
       });
 
     const buhlinfowindow  = new google.maps.InfoWindow({
-    content: "Miller Hall",
+    content: "Buhl Hall",
   });
  buhlMarker.addListener("click", () => {
     buhlinfowindow.open({
@@ -903,7 +903,7 @@ const infowindow  = new google.maps.InfoWindow({
       });
 
         const fieldhouseinfowindow  = new google.maps.InfoWindow({
-    content: "Miller Hall",
+    content: "The Rudy Marisa Fieldhouse",
   });
  fieldhouseMarker.addListener("click", () => {
     fieldhouseinfowindow.open({
@@ -913,7 +913,7 @@ const infowindow  = new google.maps.InfoWindow({
       });
 
     const stewartinfowindow  = new google.maps.InfoWindow({
-    content: "Miller Hall",
+    content: "Stewart Hall",
   });
  stewartMarker.addListener("click", () => {
     stewartinfowindow.open({
@@ -923,7 +923,7 @@ const infowindow  = new google.maps.InfoWindow({
       });
 
     const nestinfowindow  = new google.maps.InfoWindow({
-    content: "Miller Hall",
+    content: "The Nest Campus Store",
   });
  nestMarker.addListener("click", () => {
     nestinfowindow.open({
