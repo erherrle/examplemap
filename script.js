@@ -356,6 +356,73 @@ new google.maps.Marker({
 		icon: "gpac.png"
 	});
 
+new google.maps.Marker({
+		position: { lat:39.9003504368044,  lng: -80.18895420774497 },
+		map,
+		title: "Criminal Justice CSI Center",
+		icon: "cj.png"
+	});
+
+new google.maps.Marker({
+		position: { lat:39.90072707718966, lng: -80.18717538639935  },
+		map,
+		title: "Roberts Chapel",
+		icon: "chapel.png"
+	});
+
+new google.maps.Marker({
+		position: { lat:39.899875539465484,  lng: -80.18533964273449 },
+		map,
+		title: "Eberle Library",
+		icon: "lib.png"
+	});
+
+new google.maps.Marker({
+		position: { lat:39.899332405710375, lng:  -80.18545348730021 },
+		map,
+		title: "Buhl Hall",
+		icon: "buhl.png"
+	});
+
+new google.maps.Marker({
+		position: { lat:39.899493435765116,  lng: -80.18753470826721 },
+		map,
+		title: "Miller Hall",
+		icon: "miller.png"
+	});
+
+new google.maps.Marker({
+		position: { lat:39.89946887188293, lng:  -80.18704731122024  },
+		map,
+		title: "Hanna Hall",
+		icon: "hanna.png"
+	});
+
+new google.maps.Marker({
+		position: { lat:39.897995492620616, lng: -80.18662084800114  },
+		map,
+		title: "Stewart Hall",
+		icon: "stew.png"
+	});
+
+new google.maps.Marker({
+		position: { lat:39.89812420466465, lng:  -80.18757409476993  },
+		map,
+		title: "Rudy Marisa Field House",
+		icon: "rudy.png"
+	});
+
+new google.maps.Marker({
+		position: { lat:39.89811327733043,  lng: -80.18625345577067  },
+		map,
+		title: "Center for Research and Economic Development",
+		icon: "cred.png"
+	});
+
+
+
+
+
 	const homeCoords = [
     { lat: 39.897613, lng: -80.187790 },
     { lat: 39.897610777446744, lng: -80.18768567914253 },
