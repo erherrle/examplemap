@@ -289,16 +289,17 @@ function initMap() {
 	new google.maps.Marker({
 		position: { lat:39.897587026274316, lng: -80.18774225829195 },
 		map,
-		title: "home",
+		title: "My Home",
 		icon: "home.png"
 	});
 
-	new google.maps.Marker({
+	const benedumMarker = new google.maps.Marker({
 		position: { lat:39.90038626938185,  lng: -80.18793954375852 },
 		map,
 		title: "Benedum Dining Hall",
 		icon: "icons.png"
 	});
+
 
 new google.maps.Marker({
 		position: { lat:39.90039610643169,   lng: -80.18632604288385 },
@@ -307,7 +308,7 @@ new google.maps.Marker({
 		icon: "female.png"
 	});
 
-new google.maps.Marker({
+const southMarker = new google.maps.Marker({
 		position: { lat:39.900284991332626,    lng: -80.18595589805962 },
 		map,
 		title: "South",
@@ -342,14 +343,14 @@ new google.maps.Marker({
 		icon: "male.png"
 	});
 
-new google.maps.Marker({
+const nestMarker = new google.maps.Marker({
 		position: { lat:39.89811615313388, lng: -80.18537654094344 },
 		map,
 		title: "The Nest",
 		icon: "nest.png"
 	});
 
-new google.maps.Marker({
+const gpacMarker = new google.maps.Marker({
 		position: { lat:39.89991717849254, lng: -80.18787099519355 },
 		map,
 		title: "Goodwin Performing Arts Center",
@@ -363,49 +364,49 @@ new google.maps.Marker({
 		icon: "cj.png"
 	});
 
-new google.maps.Marker({
+const chapelMarker = new google.maps.Marker({
 		position: { lat:39.90072707718966, lng: -80.18717538639935  },
 		map,
 		title: "Roberts Chapel",
 		icon: "chapel.png"
 	});
 
-new google.maps.Marker({
+const eberlyMarker = new google.maps.Marker({
 		position: { lat:39.899875539465484,  lng: -80.18533964273449 },
 		map,
-		title: "Eberle Library",
+		title: "Eberly Library",
 		icon: "lib.png"
 	});
 
-new google.maps.Marker({
+const buhlMarker = new google.maps.Marker({
 		position: { lat:39.899332405710375, lng:  -80.18545348730021 },
 		map,
 		title: "Buhl Hall",
 		icon: "buhl.png"
 	});
 
-new google.maps.Marker({
+const millerMarker = new google.maps.Marker({
 		position: { lat:39.899493435765116,  lng: -80.18753470826721 },
 		map,
 		title: "Miller Hall",
 		icon: "miller.png"
 	});
 
-new google.maps.Marker({
+const hannaMarker = new google.maps.Marker({
 		position: { lat:39.89946887188293, lng:  -80.18704731122024  },
 		map,
 		title: "Hanna Hall",
 		icon: "hanna.png"
 	});
 
-new google.maps.Marker({
+const stewartMarker = new google.maps.Marker({
 		position: { lat:39.897995492620616, lng: -80.18662084800114  },
 		map,
 		title: "Stewart Hall",
 		icon: "stew.png"
 	});
 
-new google.maps.Marker({
+const fieldhouseMarker = new google.maps.Marker({
 		position: { lat:39.89812420466465, lng:  -80.18757409476993  },
 		map,
 		title: "Rudy Marisa Field House",
@@ -690,23 +691,6 @@ const GpacCoords = [
 
     chapelPolygon.setMap(map);
 
-    const wileyCoords = [
-    { lat: 39.893254519482745, lng: -80.18153607900841 }, 
-    { lat: 39.893179400851224, lng: -80.181416094374 }, 
-    { lat: 39.89309323526072, lng: 80.18151016232737 },  
-    { lat: 39.89316909044439, lng: -80.18162822720764 },
-    { lat: 39.893253783025976, lng: -80.18153770943769 }, 
-  ];
-  // Construct the polygon.
-  const wileyPolygon = new google.maps.Polygon({
-    paths: wileyCoords,
-    strokeColor: "#c16c18",
-    strokeOpacity: 0.8,
-    strokeWeight: 2,
-    fillColor: "#c16c18",
-    fillOpacity: 1.35,
-  });
-  wileyPolygon.setMap(map);
 
   const buhlCoords = [
     { lat: 39.89950052327867, lng:  -80.18525813218855 },
@@ -835,6 +819,128 @@ const infowindow  = new google.maps.InfoWindow({
       anchor: BeeHive,
       map,
       shouldFocus: false,
+    });
+
+
+   const beneduminfowindow  = new google.maps.InfoWindow({
+    content: "The Benedum Dining Hall",
+  });
+ benedumMarker.addListener("click", () => {
+    beneduminfowindow.open({
+      anchor: benedumMarker,
+      map,
+      shouldFocus: false,
+      });
+
+    const chapelinfowindow  = new google.maps.InfoWindow({
+    content: "Roberts Chapel",
+  });
+ chapelMarker.addListener("click", () => {
+    chapelinfowindow.open({
+      anchor: chapelMarker,
+      map,
+      shouldFocus: false,
+      });
+
+     const nestinfowindow  = new google.maps.InfoWindow({
+    content: "The Nest",
+  });
+ nestMarker.addListener("click", () => {
+    nestinfowindow.open({
+      anchor: nestMarker,
+      map,
+      shouldFocus: false,
+      });
+
+    const gpacinfowindow  = new google.maps.InfoWindow({
+    content: "The Goodwin Performing Arts Center",
+  });
+ gpacMarker.addListener("click", () => {
+    gpacinfowindow.open({
+      anchor: gpacMarker,
+      map,
+      shouldFocus: false,
+      });
+
+    const eberlyinfowindow  = new google.maps.InfoWindow({
+    content: "The Eberly Library",
+  });
+ eberlyMarker.addListener("click", () => {
+    eberlyinfowindow.open({
+      anchor: eberlyMarker,
+      map,
+      shouldFocus: false,
+      });
+
+    const millerinfowindow  = new google.maps.InfoWindow({
+    content: "Miller Hall",
+  });
+ millerMarker.addListener("click", () => {
+    millerinfowindow.open({
+      anchor: millerMarker,
+      map,
+      shouldFocus: false,
+      });
+
+    const hannainfowindow  = new google.maps.InfoWindow({
+    content: "Miller Hall",
+  });
+ hannaMarker.addListener("click", () => {
+    hannainfowindow.open({
+      anchor: hannaMarker,
+      map,
+      shouldFocus: false,
+      });
+
+    const buhlinfowindow  = new google.maps.InfoWindow({
+    content: "Miller Hall",
+  });
+ buhlMarker.addListener("click", () => {
+    buhlinfowindow.open({
+      anchor: buhlMarker,
+      map,
+      shouldFocus: false,
+      });
+
+        const fieldhouseinfowindow  = new google.maps.InfoWindow({
+    content: "Miller Hall",
+  });
+ fieldhouseMarker.addListener("click", () => {
+    fieldhouseinfowindow.open({
+      anchor: fieldhouseMarker,
+      map,
+      shouldFocus: false,
+      });
+
+    const stewartinfowindow  = new google.maps.InfoWindow({
+    content: "Miller Hall",
+  });
+ stewartMarker.addListener("click", () => {
+    stewartinfowindow.open({
+      anchor: stewartMarker,
+      map,
+      shouldFocus: false,
+      });
+
+    const nestinfowindow  = new google.maps.InfoWindow({
+    content: "Miller Hall",
+  });
+ nestMarker.addListener("click", () => {
+    nestinfowindow.open({
+      anchor: nestMarker,
+      map,
+      shouldFocus: false,
+      });
+    });
+    });
+    });
+    });
+    });
+    });
+    });
+    });
+    });
+    });
     });
   });
 
