@@ -421,6 +421,9 @@ new google.maps.Marker({
 	});
 
 
+	
+
+
 
 
 
@@ -807,6 +810,33 @@ const GpacCoords = [
   });
 
   cafePolygon.setMap(map);
+
+  const imageBounds = {
+    north: 39.89895,
+    south: 39.89845,
+    east:  -80.18515337649409,
+    west: -80.18844539795809,
+  };
+
+  welcomeOverlay = new google.maps.GroundOverlay(
+    "welc.png",
+    imageBounds
+  );
+  welcomeOverlay.setMap(map);
+
+  const keyBounds = {
+    north: 39.902268835358,
+    south: 39.90076973405393, 
+    east: -80.18313980811777,
+    west: -80.18610781646667,
+  };
+
+  keyOverlay = new google.maps.GroundOverlay(
+    "key.png",
+    keyBounds
+  );
+  keyOverlay.setMap(map);
+
 
 
 
