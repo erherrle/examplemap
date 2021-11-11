@@ -893,7 +893,7 @@ const infowindow  = new google.maps.InfoWindow({
       });
 
     const buhlinfowindow  = new google.maps.InfoWindow({
-    content: "Buhl Hall",
+    content: "Buhl Hall: This is the humanities building on campus. It's home to departments such as english, psychology, history, and communication. Pertruding from the top of the building, you may notice a radio tower. This transmits signal to and from our campus radio station, WCYJ-FM.",
   });
  buhlMarker.addListener("click", () => {
     buhlinfowindow.open({
@@ -903,7 +903,7 @@ const infowindow  = new google.maps.InfoWindow({
       });
 
         const fieldhouseinfowindow  = new google.maps.InfoWindow({
-    content: "The Rudy Marisa Fieldhouse",
+    content: "The Rudy Marisa Fieldhouse: If you attend an athletic event on campus that does not take you to the John F. Wiley Stadium, chances are it will take place in the Rudy Marisa Fieldhouse. Within the fieldhouse are two gymnasiums, a fitness center, and locker rooms. The building is named after legendary coach, Rudy Marisa.",
   });
  fieldhouseMarker.addListener("click", () => {
     fieldhouseinfowindow.open({
@@ -913,7 +913,7 @@ const infowindow  = new google.maps.InfoWindow({
       });
 
     const stewartinfowindow  = new google.maps.InfoWindow({
-    content: "Stewart Hall",
+    content: "Stewart Hall: This is our STEM building on campus. It is complete with several labs and departments such as nusring, biology, chemistry, mathematics and more. The building was named in honor of Paul R. Stewart, Waynesburg's president for forty-two years.",
   });
  stewartMarker.addListener("click", () => {
     stewartinfowindow.open({
@@ -922,9 +922,7 @@ const infowindow  = new google.maps.InfoWindow({
       shouldFocus: false,
       });
 
-    const nestinfowindow  = new google.maps.InfoWindow({
-    content: "The Nest Campus Store",
-  });
+    
  nestMarker.addListener("click", () => {
     nestinfowindow.open({
       anchor: nestMarker,
