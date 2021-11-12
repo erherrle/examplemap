@@ -554,7 +554,7 @@ const eberlyPolygon = new google.maps.Polygon({
     strokeOpacity: 0.8,
     strokeWeight: 2,
     fillColor: "#c16c18",
-    fillOpacity: 1.35,
+    fillOpacity: 0.35,
   });
 
   stewartpolygon.setMap(map);
@@ -574,7 +574,7 @@ const southCoords = [
     strokeOpacity: 0.8,
     strokeWeight: 2,
     fillColor: "#c16c18",
-    fillOpacity: 1.35,
+    fillOpacity: 0.35,
   });
 
   southpolygon.setMap(map);
@@ -593,7 +593,7 @@ const westCoords = [
     strokeOpacity: 0.8,
     strokeWeight: 2,
     fillColor: "#c16c18",
-    fillOpacity: 1.35,
+    fillOpacity: 0.35,
   });
 
   westpolygon.setMap(map);
@@ -612,7 +612,7 @@ const westCoords = [
     strokeOpacity: 0.8,
     strokeWeight: 2,
     fillColor: "#c16c18",
-    fillOpacity: 1.35,
+    fillOpacity: 0.35,
   });
 
   eastpolygon.setMap(map);
@@ -632,7 +632,7 @@ const westCoords = [
     strokeOpacity: 0.8,
     strokeWeight: 2,
     fillColor: "#c16c18",
-    fillOpacity: 1.35,
+    fillOpacity: 0.35,
   });
 
 willisonpolygon.setMap(map);
@@ -709,7 +709,7 @@ const GpacCoords = [
     strokeOpacity: 0.8,
     strokeWeight: 2,
     fillColor: "#c16c18",
-    fillOpacity: 1.35,
+    fillOpacity: 0.35,
   });
 
   buhlPolygon.setMap(map);
@@ -728,7 +728,7 @@ const GpacCoords = [
     strokeOpacity: 0.8,
     strokeWeight: 2,
     fillColor: "#c16c18",
-    fillOpacity: 1.35,
+    fillOpacity: 0.35,
   });
 
   stoverPolygon.setMap(map);
@@ -747,7 +747,7 @@ const GpacCoords = [
     strokeOpacity: 0.8,
     strokeWeight: 2,
     fillColor: "#c16c18",
-    fillOpacity: 1.35,
+    fillOpacity: 0.35,
   });
 
  millerPolygon.setMap(map);
@@ -766,7 +766,7 @@ const GpacCoords = [
     strokeOpacity: 0.8,
     strokeWeight: 2,
     fillColor: "#c16c18",
-    fillOpacity: 1.35,
+    fillOpacity: 0.35,
   });
 
   thayerPolygon.setMap(map);
@@ -786,7 +786,7 @@ const GpacCoords = [
     strokeOpacity: 0.8,
     strokeWeight: 2,
     fillColor: "#c16c18",
-    fillOpacity: 1.35,
+    fillOpacity: 0.35,
   });
 
   pollockPolygon.setMap(map);
@@ -806,7 +806,7 @@ const GpacCoords = [
     strokeOpacity: 0.8,
     strokeWeight: 2,
     fillColor: "#c16c18",
-    fillOpacity: 1.35,
+    fillOpacity: 0.35,
   });
 
   cafePolygon.setMap(map);
