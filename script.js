@@ -853,7 +853,7 @@ const infowindow  = new google.maps.InfoWindow({
 
 
    const beneduminfowindow  = new google.maps.InfoWindow({
-    content: "<h1>The Benedum Dining Hall</h1> This is the main dining hall on campus serving breakfast lunch and dinner. Below the dining hall is the Fine Arts Center, and it is also connected to a female, underclassmen, residential building, Denny Hall.",
+    content: "<h1>The Benedum Dining Hall</h1> This is the main dining hall on campus and serves breakfast, lunch, and dinner. Below the dining hall is the Fine Arts Center, and it is also connected to a female, underclassmen, residential building, Denny Hall.",
   });
  benedumMarker.addListener("click", () => {
     beneduminfowindow.open({
@@ -893,7 +893,7 @@ const infowindow  = new google.maps.InfoWindow({
       });
 
     const eberlyinfowindow  = new google.maps.InfoWindow({
-    content: "<h1>The Eberly Library</h1> The campus library sits on the hill directly behind the Stover Center. The library offers a quiet space for studying, a vast resource of knowledge and research materials, as well as a computer lab where a majority of students do their pringing - for FREE!",
+    content: "<h1>The Eberly Library</h1> The campus library sits on the hill directly behind the Stover Center. The library offers a quiet space for studying, a vast resource of knowledge and research materials, as well as a computer lab where a majority of students do their printing - for FREE!",
   });
  eberlyMarker.addListener("click", () => {
     eberlyinfowindow.open({
@@ -903,7 +903,7 @@ const infowindow  = new google.maps.InfoWindow({
       });
 
     const millerinfowindow  = new google.maps.InfoWindow({
-    content: "<h1>Miller Hall</h1> This building is home to the office of the provost, admissions, business, and more. On the third floor is Alumni Hall, a large lecture space decorated with stain glass windows. In the buildings bottom floor, you will find the university's museum, complete with artifacts that outline the history of Waynesburg and the university.",
+    content: "<h1>Miller Hall</h1> This building is home to the office of the provost, admissions, business, and more. On the third floor is Alumni Hall, a large lecture space decorated with stain glass windows. In the building's bottom floor, you will find the university's museum, complete with artifacts that preserve the history of Waynesburg and the university.",
   });
  millerMarker.addListener("click", () => {
     millerinfowindow.open({
